@@ -1,0 +1,78 @@
+*******************************************************************
+* Genome-wide Complex Trait Analysis (GCTA)
+* version 1.93.3 beta Linux
+* (C) 2010-present, Jian Yang, The University of Queensland
+* Please report bugs to Jian Yang <jian.yang.qt@gmail.com>
+*******************************************************************
+Analysis started at 20:01:14 CST on Mon Nov 22 2021.
+Hostname: cu01
+
+Options: 
+ 
+--fastGWA-mlm 
+--bfile d1_7 
+--grm-sparse d1_7_sp 
+--pheno basic_pheno.T2.txt 
+--qcovar covar_mds.txt 
+--threads 10 
+--out d1_7_assoc_gcta_T2 
+
+The program will be running on up to 10 threads.
+Reading PLINK FAM file from [d1_7.fam]...
+585 individuals to be included from FAM file.
+Reading phenotype data from [basic_pheno.T2.txt]...
+577 overlapping individuals with non-missing data to be included from the phenotype file.
+577 individuals to be included. 291 males, 286 females, 0 unknown.
+Reading PLINK BIM file from [d1_7.bim]...
+20504 SNPs to be included from BIM file(s).
+Reading quantitative covariates from [covar_mds.txt].
+10 covariates of 585 samples to be included.
+577 overlapping individuals with non-missing data to be included from the covariate file(s).
+Reading the sparse GRM file from [d1_7_sp]...
+After matching all the files, 577 individuals to be included in the analysis.
+Estimating the genetic variance (Vg) by fastGWA-REML (grid search)...
+Iteration 1, step size: 3.5134, logL: -1831.59. Vg: 63.2412, searching range: 59.7278 to 66.7546
+Iteration 2, step size: 0.468453, logL: -1831.58. Vg: 61.6016, searching range: 61.1332 to 62.0701
+Iteration 3, step size: 0.0624604, logL: -1831.58. Vg: 61.5704, searching range: 61.5079 to 61.6328
+Iteration 4, step size: 0.00832806, logL: -1831.58. Vg: 61.5995, searching range: 61.5912 to 61.6079
+Iteration 5, step size: 0.00111041, logL: -1831.58. Vg: 61.599, searching range: 61.5979 to 61.6001
+Iteration 6, step size: 0.000148054, logL: -1831.58. Vg: 61.5992, searching range: 61.599 to 61.5993
+Iteration 7, step size: 1.97406e-05, logL: -1831.58. Vg: 61.5992, searching range: 61.5992 to 61.5992
+Iteration 8, step size: 2.63208e-06, logL: -1831.58. Vg: 61.5992, searching range: 61.5992 to 61.5992
+Iteration 9, step size: 3.50944e-07, logL: -1831.58. Vg: 61.5992, searching range: 61.5992 to 61.5992
+Iteration 10, step size: 4.67925e-08, logL: -1831.58. Vg: 61.5992, searching range: 61.5992 to 61.5992
+Iteration 11, step size: 6.239e-09, logL: -1831.58. Vg: 61.5992, searching range: 61.5992 to 61.5992
+Iteration 12, step size: 8.31866e-10, logL: -1831.58. Vg: 61.5992, searching range: 61.5992 to 61.5992
+Iteration 13, step size: 1.10916e-10, logL: -1831.58. Vg: 61.5992, searching range: 61.5992 to 61.5992
+fastGWA-REML converged.
+logL: -1831.58
+Sampling variance/covariance of the estimates of Vg and Ve:
+ 252.516 -114.289
+-114.289  173.245
+
+Source	Variance	SE
+Vg	61.5992	15.8908
+Ve	157.988	13.1622
+Vp	219.587
+
+Heritability = 0.280522 (Pval = 0.000106006)
+fastGWA-REML runtime: 1.51748 sec.
+
+Tuning parameters using 2000 null SNPs...
+  reading genotypes...
+  100% finished in 1.0 sec
+1906 SNPs have been processed.
+Tuning of gamma finished at the 1000th SNP.
+Mean gamma = 0.003244
+Tuning of gamma finished 0.990853 seconds.
+
+Performing fastGWA mixed model association analysis...
+fastGWA results will be saved in text format to [d1_7_assoc_gcta_T2.fastGWA].
+  Filtering out variants with MAF < 0.0001, customise it with --maf flag.
+  Filtering out variants with missingness rate > 0.10, customise it with --geno flag.
+  100% finished in 0.1 sec
+20504 SNPs have been processed.
+Saved 20504 SNPs.
+
+Analysis finished at 20:01:16 CST on Mon Nov 22 2021
+Overall computational time: 2.80 sec.

@@ -1,0 +1,38 @@
+PLINK v1.90b6.22 64-bit (16 Apr 2021)
+Options in effect:
+  --file d1
+  --freq
+  --out d1.freq
+
+Hostname: mu01
+Working directory: /beegfs/store4/chenyangkang/12.pig
+Start time: Wed Nov 10 12:10:51 2021
+
+Random number seed: 1636517451
+63989 MB RAM detected; reserving 31994 MB for main workspace.
+Scanning .ped file...
+Possibly irregular .ped line.  Restarting scan, assuming multichar alleles.
+.ped scan complete (for binary autoconversion).
+Warning: Variant 1595 triallelic; setting rarest missing.
+Warning: Variant 4074 triallelic; setting rarest missing.
+Warning: Variant 7669 triallelic; setting rarest missing.
+Warning: Variant 10636 triallelic; setting rarest missing.
+Warning: Variant 13334 triallelic; setting rarest missing.
+Warning: Variant 21577 triallelic; setting rarest missing.
+Warning: Variant 22303 triallelic; setting rarest missing.
+Warning: Variant 22523 triallelic; setting rarest missing.
+Warning: Variant 24927 triallelic; setting rarest missing.
+Warning: Variant 28227 triallelic; setting rarest missing.
+Warning: Variant 33628 triallelic; setting rarest missing.
+Performing single-pass .bed write (49163 variants, 665 people).
+--file: d1.freq-temporary.bed + d1.freq-temporary.bim + d1.freq-temporary.fam
+written.
+49163 variants loaded from .bim file.
+665 people (312 males, 353 females) loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 21 founders and 644 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.988763.
+--freq: Allele frequencies (founders only) written to d1.freq.frq .
+
+End time: Wed Nov 10 12:10:54 2021

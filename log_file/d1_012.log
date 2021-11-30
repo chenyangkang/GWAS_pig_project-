@@ -1,0 +1,42 @@
+PLINK v1.90b6.22 64-bit (16 Apr 2021)
+Options in effect:
+  --file d1
+  --noweb
+  --out d1_012
+  --recode 12
+
+Hostname: mu01
+Working directory: /beegfs/store4/chenyangkang/12.pig
+Start time: Wed Nov 10 12:25:27 2021
+
+Note: --noweb has no effect since no web check is implemented yet.
+Random number seed: 1636518327
+63989 MB RAM detected; reserving 31994 MB for main workspace.
+Scanning .ped file...
+Possibly irregular .ped line.  Restarting scan, assuming multichar alleles.
+.ped scan complete (for binary autoconversion).
+Warning: Variant 1595 triallelic; setting rarest missing.
+Warning: Variant 4074 triallelic; setting rarest missing.
+Warning: Variant 7669 triallelic; setting rarest missing.
+Warning: Variant 10636 triallelic; setting rarest missing.
+Warning: Variant 13334 triallelic; setting rarest missing.
+Warning: Variant 21577 triallelic; setting rarest missing.
+Warning: Variant 22303 triallelic; setting rarest missing.
+Warning: Variant 22523 triallelic; setting rarest missing.
+Warning: Variant 24927 triallelic; setting rarest missing.
+Warning: Variant 28227 triallelic; setting rarest missing.
+Warning: Variant 33628 triallelic; setting rarest missing.
+Performing single-pass .bed write (49163 variants, 665 people).
+--file: d1_012-temporary.bed + d1_012-temporary.bim + d1_012-temporary.fam
+written.
+49163 variants loaded from .bim file.
+665 people (312 males, 353 females) loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 21 founders and 644 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.988763.
+49163 variants and 665 people pass filters and QC.
+Note: No phenotypes present.
+--recode ped to d1_012.ped + d1_012.map ... done.
+
+End time: Wed Nov 10 12:25:31 2021

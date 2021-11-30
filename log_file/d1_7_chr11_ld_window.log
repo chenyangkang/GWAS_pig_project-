@@ -1,0 +1,29 @@
+PLINK v1.90b6.22 64-bit (16 Apr 2021)
+Options in effect:
+  --allow-no-sex
+  --bfile d1_7_chr11
+  --ld-window 99999
+  --ld-window-kb 1000
+  --ld-window-r2 0.2
+  --make-founders
+  --out d1_7_chr11_ld_window
+  --r2
+
+Hostname: mu01
+Working directory: /beegfs/store4/chenyangkang/12.pig
+Start time: Sat Nov 13 14:26:04 2021
+
+Random number seed: 1636784764
+63989 MB RAM detected; reserving 31994 MB for main workspace.
+826 variants loaded from .bim file.
+585 people (295 males, 290 females) loaded from .fam.
+Using up to 15 threads (change this with --threads).
+--make-founders: 585 samples affected.
+Before main variant filters, 585 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.998634.
+826 variants and 585 people pass filters and QC.
+Note: No phenotypes present.
+--r2 to d1_7_chr11_ld_window.ld ... done.
+
+End time: Sat Nov 13 14:26:04 2021

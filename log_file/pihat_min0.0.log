@@ -1,0 +1,25 @@
+PLINK v1.90b6.22 64-bit (16 Apr 2021)
+Options in effect:
+  --bfile d1_8
+  --genome
+  --min 0.0
+  --out pihat_min0.0
+
+Hostname: mu01
+Working directory: /beegfs/store4/chenyangkang/12.pig
+Start time: Fri Nov 12 13:04:43 2021
+
+Random number seed: 1636693483
+63989 MB RAM detected; reserving 31994 MB for main workspace.
+39043 variants loaded from .bim file.
+582 people (294 males, 288 females) loaded from .fam.
+Using up to 15 threads (change this with --threads).
+Before main variant filters, 0 founders and 582 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.999085.
+39043 variants and 582 people pass filters and QC.
+Note: No phenotypes present.
+IBD calculations complete.
+Finished writing pihat_min0.0.genome .
+
+End time: Fri Nov 12 13:04:44 2021

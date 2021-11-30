@@ -1,0 +1,18 @@
+PLINK v1.90b6.22 64-bit (16 Apr 2021)
+Options in effect:
+  --file d1_modified
+  --freq
+  --out d1_modified.freq
+
+Hostname: mu01
+Working directory: /beegfs/store4/chenyangkang/12.pig
+Start time: Wed Nov 10 12:10:11 2021
+
+Random number seed: 1636517411
+63989 MB RAM detected; reserving 31994 MB for main workspace.
+Scanning .ped file...
+Possibly irregular .ped line.  Restarting scan, assuming multichar alleles.
+
+Error: Half-missing call in .ped file at variant 1595, line 1.
+
+End time: Wed Nov 10 12:10:11 2021

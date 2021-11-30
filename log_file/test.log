@@ -1,0 +1,15 @@
+*******************************************************************
+* Genome-wide Complex Trait Analysis (GCTA)
+* version 1.93.2 beta Linux
+* (C) 2010-present, Jian Yang, The University of Queensland
+* Please report bugs to Jian Yang <jian.yang.qt@gmail.com>
+*******************************************************************
+Analysis started at 16:36:56 CST on Mon Nov 22 2021.
+Hostname: mu01
+
+Accepted options:
+--bfile d1_7
+Error: 
+  invalid option "--grm-sparse".
+
+An error occurs, please check the options or data

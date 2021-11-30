@@ -1,0 +1,27 @@
+PLINK v1.90b6.22 64-bit (16 Apr 2021)
+Options in effect:
+  --bfile d1_7
+  --covar covar_mds.txt
+  --hide-covar
+  --logistic
+  --out logistic_results
+
+Hostname: mu01
+Working directory: /beegfs/store4/chenyangkang/12.pig
+Start time: Fri Nov 12 13:05:54 2021
+
+Note: --hide-covar flag deprecated.  Use e.g. "--linear hide-covar".
+Random number seed: 1636693554
+63989 MB RAM detected; reserving 31994 MB for main workspace.
+39043 variants loaded from .bim file.
+585 people (295 males, 290 females) loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+--covar: 10 covariates loaded.
+Before main variant filters, 0 founders and 585 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.999084.
+39043 variants and 585 people pass filters and QC.
+Note: No phenotypes present.
+Warning: Skipping --logistic since less than two phenotypes are present.
+
+End time: Fri Nov 12 13:05:54 2021

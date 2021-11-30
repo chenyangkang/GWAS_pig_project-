@@ -1,0 +1,32 @@
+PLINK v1.90b6.22 64-bit (16 Apr 2021)
+Options in effect:
+  --bfile d1_7
+  --cluster
+  --exclude nonF2.list
+  --mds-plot 10
+  --out d1_7_mds
+
+Hostname: mu01
+Working directory: /beegfs/store4/chenyangkang/12.pig
+Start time: Mon Nov 22 17:24:09 2021
+
+Random number seed: 1637573049
+63989 MB RAM detected; reserving 31994 MB for main workspace.
+20504 variants loaded from .bim file.
+585 people (295 males, 290 females) loaded from .fam.
+--exclude: 20504 variants remaining.
+Using up to 15 threads (change this with --threads).
+Before main variant filters, 0 founders and 585 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.99909.
+20504 variants and 585 people pass filters and QC.
+Note: No phenotypes present.
+Distance matrix calculation complete.
+Clustering... done.
+Cluster solution written to d1_7_mds.cluster1 , d1_7_mds.cluster2 , and
+d1_7_mds.cluster3 .
+Performing multidimensional scaling analysis (SVD algorithm, 10
+dimensions)... done.
+MDS solution written to d1_7_mds.mds .
+
+End time: Mon Nov 22 17:24:09 2021

@@ -1,0 +1,27 @@
+PLINK v1.90b6.22 64-bit (16 Apr 2021)
+Options in effect:
+  --bfile d1_6
+  --hwe 1e-5
+  --make-bed
+  --nonfounders
+  --out d1_hwe_filter_step1
+
+Hostname: mu01
+Working directory: /beegfs/store4/chenyangkang/12.pig
+Start time: Fri Nov 12 13:01:25 2021
+
+Random number seed: 1636693285
+63989 MB RAM detected; reserving 31994 MB for main workspace.
+40551 variants loaded from .bim file.
+585 people (295 males, 290 females) loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 0 founders and 585 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.999066.
+--hwe: 1508 variants removed due to Hardy-Weinberg exact test.
+39043 variants and 585 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to d1_hwe_filter_step1.bed + d1_hwe_filter_step1.bim +
+d1_hwe_filter_step1.fam ... done.
+
+End time: Fri Nov 12 13:01:25 2021

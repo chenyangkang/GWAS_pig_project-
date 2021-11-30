@@ -1,0 +1,34 @@
+PLINK v1.90b6.22 64-bit (16 Apr 2021)
+Options in effect:
+  --adjust
+  --allow-no-sex
+  --assoc
+  --bfile d1_7
+  --covar covar_mds.txt
+  --hide-covar
+  --out litter.assoc
+  --pheno all.pheno
+  --pheno-name litter
+
+Hostname: mu01
+Working directory: /beegfs/store4/chenyangkang/12.pig
+Start time: Mon Nov 22 17:24:09 2021
+
+Note: --hide-covar flag deprecated.  Use e.g. "--linear hide-covar".
+Random number seed: 1637573049
+63989 MB RAM detected; reserving 31994 MB for main workspace.
+20504 variants loaded from .bim file.
+585 people (295 males, 290 females) loaded from .fam.
+581 phenotype values present after --pheno.
+Using 1 thread (no multithreaded calculations invoked).
+Warning: Ignoring --covar since no commands reference the covariates.
+Before main variant filters, 0 founders and 585 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.99909.
+20504 variants and 585 people pass filters and QC.
+Phenotype data is quantitative.
+Writing QT --assoc report to litter.assoc.qassoc ... done.
+--adjust: Genomic inflation est. lambda (based on median chisq) = 12.0841.
+--adjust values (20504 variants) written to litter.assoc.qassoc.adjusted .
+
+End time: Mon Nov 22 17:24:10 2021

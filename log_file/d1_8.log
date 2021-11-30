@@ -1,0 +1,25 @@
+PLINK v1.90b6.22 64-bit (16 Apr 2021)
+Options in effect:
+  --bfile d1_7
+  --make-bed
+  --out d1_8
+  --remove het_fail_ind.txt
+
+Hostname: mu01
+Working directory: /beegfs/store4/chenyangkang/12.pig
+Start time: Fri Nov 12 13:04:33 2021
+
+Random number seed: 1636693473
+63989 MB RAM detected; reserving 31994 MB for main workspace.
+39043 variants loaded from .bim file.
+585 people (295 males, 290 females) loaded from .fam.
+--remove: 582 people remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 0 founders and 582 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate in remaining samples is 0.999085.
+39043 variants and 582 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to d1_8.bed + d1_8.bim + d1_8.fam ... done.
+
+End time: Fri Nov 12 13:04:34 2021
